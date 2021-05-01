@@ -1,5 +1,5 @@
 let weather = {
-  apiKey: ${{ secrets.API }},
+  apiKey: "YOUR API KEY HERE",
   fetchWeather: function (city) {
     fetch(
       "https://api.openweathermap.org/data/2.5/weather?q=" +
